@@ -20,3 +20,8 @@ A colaboração é incentivada! Siga estas orientações para contribuir com o p
 3. Faça as alterações e adicione seus commits: `git commit -m "Descrição das suas alterações"`.
 4. Envie suas alterações para o repositório remoto: `git push origin nome-da-sua-branch`.
 5. Abra um **Pull Request** para a branch principal (`main` ou `master`) com uma descrição clara das suas mudanças.
+
+---
+## Licença
+
+Este projeto está licenciado sob a [Escolha uma licença, por exemplo: MIT License]. Sinta-se à vontade para utilizar o material para fins educacionais e de estudo.
