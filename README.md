@@ -24,4 +24,4 @@ A colaboração é incentivada! Siga estas orientações para contribuir com o p
 ---
 ## Licença
 
-Este projeto está licenciado sob a [Escolha uma licença, por exemplo: MIT License]. Sinta-se à vontade para utilizar o material para fins educacionais e de estudo.
+Este projeto está licenciado sob MIT License. Sinta-se à vontade para utilizar o material para fins educacionais e de estudo.
