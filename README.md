@@ -1,5 +1,7 @@
 # Técnicas de Desenvolvimento em Algoritmos UDF
 
+![Algoritmo e Código]("C:\Users\Esdras\Downloads\Gemini_Generated_Image_p2ht5wp2ht5wp2ht.png")
+
 ## Descrição
 
 Este repositório serve como material de apoio e ambiente de colaboração para a disciplina de **Técnicas de Desenvolvimento em Algoritmos**. Aqui, você encontrará os códigos-fonte, exemplos práticos, listas de exercícios e projetos desenvolvidos ao longo do curso.
