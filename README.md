@@ -1,6 +1,6 @@
 # Técnicas de Desenvolvimento em Algoritmos UDF
 
-![Algoritmo e Código]("C:\Users\Esdras\Downloads\Gemini_Generated_Image_p2ht5wp2ht5wp2ht.png")
+![Algoritmo e Código](assets/Gemini_Generated_Image_p2ht5wp2ht5wp2ht.png)
 
 ## Descrição
 
