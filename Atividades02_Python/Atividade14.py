@@ -14,14 +14,14 @@ try:
     terceira_nota =  float(input('Digite sua terceira nota: '))
     media =  Decimal(primeira_nota + segunda_nota + terceira_nota)/3
     if sexo.upper() == 'M' and media >= media_para_passar:
-        print(f'O aluno  foi aprovado com media {media}')
+        print(f'O aluno  foi aprovado com media {media:.2f}')
     elif sexo.upper()== 'F' and media >= media_para_passar:
-        print(f'A aluna  foi aprovado com media {media}')
+        print(f'A aluna  foi aprovado com media {media:.2f}')
     elif sexo.upper()== 'F' and media < media_para_passar:
-        print(f'A aluna  não foi aprovado com media {media} ')
+        print(f'A aluna  não foi aprovado com media {media:.2f} ')
 
     else: 
-        print(f'O aluno não foi aprovado com media {media} ') 
+        print(f'O aluno não foi aprovado com media {media:.2f} ') 
       
 except ValueError:
-    ...
+    print('Dado inválido ❌')
