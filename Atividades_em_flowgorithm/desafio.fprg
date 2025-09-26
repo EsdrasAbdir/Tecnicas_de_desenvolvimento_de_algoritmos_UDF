@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ESDRASABDIRISSACARDA"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-09-05 09:23:04 "/>
+        <attribute name="created" value="RVNEUkFTQUJESVJJU1NBQ0FSREE7REYwMS1MQUIwOC0wMjsyMDI1LTA5LTA1OyIwNzoyNTo0NyAiOzMzOTI="/>
+        <attribute name="edited" value="RVNEUkFTQUJESVJJU1NBQ0FSREE7REYwMS1MQUIwOC0wMjsyMDI1LTA5LTA1OyIwOToyMzowNCAiOzI7MzQ5NA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="valorsolicitado, notas100, notas2, notas50, notas1, notas20, notas10" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite o valor do saque&quot;" newline="True"/>
+            <input variable="valorsolicitado"/>
+            <if expression="valorsolicitado&gt;0">
+                <then>
+                    <output expression="&quot;Valor aceito&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;valor n&#227;o aceito&quot;" newline="True"/>
+                </else>
+            </if>
+            <assign variable="notas100" expression="valorsolicitado/100"/>
+            <assign variable="valorsolicitado" expression="valorsolicitado%100"/>
+            <assign variable="notas50" expression="valorsolicitado/50"/>
+            <assign variable="valorsolicitado" expression="valorsolicitado%50"/>
+            <assign variable="notas20" expression="valorsolicitado/20"/>
+            <assign variable="valorsolicitado" expression="valorsolicitado%20"/>
+            <assign variable="notas10" expression="valorsolicitado/10"/>
+            <assign variable="valorsolicitado" expression="valorsolicitado%10"/>
+            <assign variable="notas2" expression="valorsolicitado/2"/>
+            <assign variable="valorsolicitado" expression="valorsolicitado%2"/>
+            <assign variable="notas1" expression="valorsolicitado/1"/>
+            <assign variable="valorsolicitado" expression="valorsolicitado%1"/>
+            <output expression="&quot;notas100: &quot; &amp; notas100 &amp; &quot; notas&quot;" newline="True"/>
+            <output expression="&quot;notas50: &quot; &amp; notas50 &amp; &quot; notas&quot;" newline="True"/>
+            <output expression="&quot;notas10: &quot; &amp; notas10 &amp; &quot; notas&quot;" newline="True"/>
+            <output expression="&quot;notas20: &quot; &amp; notas20 &amp; &quot; notas&quot;" newline="True"/>
+            <output expression="&quot;notas2: &quot; &amp; notas2 &amp; &quot; notas&quot;" newline="True"/>
+            <output expression="&quot;notas1: &quot; &amp; notas1 &amp; &quot; notas&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

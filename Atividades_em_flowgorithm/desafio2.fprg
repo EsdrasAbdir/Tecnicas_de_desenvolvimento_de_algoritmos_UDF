@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="desafio2"/>
+        <attribute name="authors" value="Esdras"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-09-12 03:24:32 "/>
+        <attribute name="created" value="RXNkcmFzO0RFU0tUT1AtVUE5NlFFMjsyMDI1LTA5LTEyOyIwMzoxNjo0MSAiOzI4NDU="/>
+        <attribute name="edited" value="RXNkcmFzO0RFU0tUT1AtVUE5NlFFMjsyMDI1LTA5LTEyOyIwMzoyNDozMiAiOzI7Mjk1Mw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="valor, notas100, notas50, notas20, notas10, notas2, notas1" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite o valor do saque: &quot;" newline="True"/>
+            <input variable="valor"/>
+            <assign variable="notas100" expression="valor/100"/>
+            <assign variable="valor" expression="valor % 100"/>
+            <assign variable="notas50" expression="valor/50"/>
+            <assign variable="valor" expression="valor % 50"/>
+            <assign variable="notas20" expression="valor/20"/>
+            <assign variable="valor" expression="valor%20"/>
+            <assign variable="notas10" expression="valor/10"/>
+            <assign variable="valor" expression="valor % 10"/>
+            <assign variable="notas2" expression="valor/2"/>
+            <assign variable="valor" expression="valor % 2"/>
+            <assign variable="notas1" expression="valor"/>
+        </body>
+    </function>
+</flowgorithm>

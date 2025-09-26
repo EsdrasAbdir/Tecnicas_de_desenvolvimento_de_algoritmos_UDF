@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="saque"/>
+        <attribute name="authors" value="rafae"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-09-06 11:23:56 "/>
+        <attribute name="created" value="cmFmYWU7REVTS1RPUC1OMTYxQ0tVOzIwMjUtMDktMDY7IjEwOjIzOjUwICI7Mjc0MQ=="/>
+        <attribute name="edited" value="cmFmYWU7REVTS1RPUC1OMTYxQ0tVOzIwMjUtMDktMDY7IjExOjIzOjU2ICI7MTsyODU2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="valor, n50, n20, n10, n2, n1" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite o valor do saque:&quot;" newline="True"/>
+            <input variable="valor"/>
+            <if expression="valor &lt;= 0">
+                <then>
+                    <output expression="&quot;Valor inv&#225;lido.&quot;" newline="True"/>
+                </then>
+                <else/>
+            </if>
+            <assign variable="n50" expression="valor / 50"/>
+            <assign variable="valor" expression="valor % 50"/>
+            <assign variable="n20" expression="valor / 20"/>
+            <assign variable="valor" expression="valor % 20"/>
+            <assign variable="n10" expression="valor / 10"/>
+            <assign variable="n10" expression="valor % 10"/>
+            <assign variable="n2" expression="valor / 2"/>
+            <assign variable="n2" expression="valor % 2"/>
+            <assign variable="n1" expression="valor / 1"/>
+            <assign variable="n1" expression="valor % 1"/>
+            <if expression="n50&gt; 0">
+                <then>
+                    <output expression="n50 &amp; &quot; nota(s) de R$ 50&quot;" newline="True"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="n20&gt; 0">
+                <then>
+                    <output expression="n20 &amp; &quot; nota(s) de R$ 20&quot;" newline="True"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="n10&gt; 0">
+                <then>
+                    <output expression="n10 &amp; &quot; nota(s) de R$ 10&quot;" newline="True"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="n2&gt; 0">
+                <then>
+                    <output expression="n2 &amp; &quot; nota(s) de R$ 2&quot;" newline="True"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="n1&gt; 0">
+                <then>
+                    <output expression="n1 &amp; &quot; nota(s) de R$ 1&quot;" newline="True"/>
+                </then>
+                <else/>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

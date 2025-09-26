@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ESDRASABDIRISSACARDA"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-09-05 09:07:08 "/>
+        <attribute name="created" value="RVNEUkFTQUJESVJJU1NBQ0FSREE7REYwMS1MQUIwOC0wMjsyMDI1LTA5LTA1OyIwODozMTowNiAiOzMzODU="/>
+        <attribute name="edited" value="RVNEUkFTQUJESVJJU1NBQ0FSREE7REYwMS1MQUIwOC0wMjsyMDI1LTA5LTA1OyIwOTowNzowOCAiOzM7MzUwMQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numero, i, result" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite um n&#250;mero: &quot;" newline="True"/>
+            <input variable="numero"/>
+            <for variable="i" start="1" end="10" direction="inc" step="1">
+                <assign variable="result" expression="numero * i"/>
+                <output expression="&quot;O resultado &#233; &quot; &amp; result &amp; &quot; = &quot; &amp; i &amp; &quot; x &quot; &amp; numero" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>
