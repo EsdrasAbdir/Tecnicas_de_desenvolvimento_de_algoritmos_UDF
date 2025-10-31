@@ -5,15 +5,28 @@ pessoas (o programa deve parar quando
 um nome vazio for informado).
 Retorne o nome da pessoa mais velha """
 
-idade = int() 
-nome = []
+idades = [] 
+nomes = []
 
 while True:
-    nome = input('Digite seu nome: ')
-    nome.append(nome)
-    if nome == '':
+    nome_atual = input('Digite seu nome: ')
+    if nome_atual == '':
         break
-    idade = input('Digite sua idade: ')
-    for idade in nome:
-        if idade > ...:
-            ... 
+
+    try:
+        idade_atual = int(input('Digite sua idade: '))
+    except ValueError:
+        print('Idade inválida❌')
+        
+    nomes.append(nome_atual)
+    idades.append(idade_atual)
+
+if not nomes:
+    print('Sem nomes!')
+else:
+    idade_maximo = max(idades)
+    indice_pessoa_mais_velha = idades.index(idade_maximo)
+
+    nome_da_pessoa_mais_velha = nomes[indice_pessoa_mais_velha]
+
+    print(f'A pessoa mais velha é {nome_da_pessoa_mais_velha}')
